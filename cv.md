@@ -69,6 +69,7 @@ Not yet...
 ---
 ## Languages
 * **Russian:** native
-* **English:** A2
+* **English:** Intermediate/Upper-intermediate (according to the online test at [www.efset.org](https://www.efset.org/quick-check))
+[View EF certificate](https://www.efset.org/cert/KWJ6hE)
 
 ---
