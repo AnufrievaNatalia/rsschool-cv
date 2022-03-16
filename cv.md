@@ -5,7 +5,7 @@
 ---
 ## Contacts
 
-* **Location:** Russia, N.Novgorod
+* **Location:** Russia, Nizhny Novgorod
 * **Phone:** +7 902 685 0450
 * **E-mail:** [ponya1992n@gmail.com](ponya1992n@gmail.com)
 * **GitHub:** [AnufrievaNatalia](https://github.com/AnufrievaNatalia)
