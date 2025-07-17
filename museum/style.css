@@ -4,6 +4,38 @@
   font-style: normal;
 }
 
+.svg {
+  width:"28";
+  height:"28";
+  fill: white;
+}
+
+
+
+h2 {
+  Color: white;
+  Font: Forum;
+  Weight: 400;
+  Size: 80px;
+  Line height: 90px; 
+  Letter-spacing: 5px;
+  Case Uppercase
+}
+
+p {
+  color: white;
+  font-family: Roboto;
+    font-weight: 300;
+    font-size: 22px;
+    leading-trim: NONE;
+    line-height: 38.5px;
+    letter-spacing: 0%;
+}
+
+.section_black {
+  background: #030303;
+}
+
 .header {
   background: #030303;
 }
@@ -11,10 +43,24 @@
 
 
 
+#parallax {
+  background-image: url(images/parallax\ 1.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 400px;
+    width: 1,920px;
+}
 
 
 
+.footer {
+  background: #030303;
+}
 
-
-
+.social_link {
+  border-radius: 50%;
+  border: 1px;
+  border-color: #666666;
+}
 
