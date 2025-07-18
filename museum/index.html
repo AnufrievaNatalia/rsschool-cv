@@ -5,100 +5,105 @@
     <meta name="viewport" content="width=1920px">
     <title>Museum</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+
+    <link rel="icon" href="assets/favicon.ico" />
   </head>
   <body>
-    <header class="header">
+    <header class="header header-container">
       <nav>
         <a id="logo" href="#">
-          <img class="svg" src="./images/logo_museum.svg" alt="museum"></img>
+          <img class="svg logo_svg" src="assets/svg/logo_museum.svg" alt="museum"></img>
           <p>Louvre</p>
         </a>
         <ul>
           <li><a href="#Visiting">Visiting</a></li>
-          <li><a href="Explore">Explore</a></li>
-          <li><a href="Video">Video</a></li>
-          <li><a href="Gallery">Gallery</a></li>
-          <li><a href="Tickets">Tickets</a></li>
-          <li><a href="Contacts">Contacts</a></li>
+          <li><a href="#Explore">Explore</a></li>
+          <li><a href="#Video">Video</a></li>
+          <li><a href="#Gallery">Gallery</a></li>
+          <li><a href="#Tickets">Tickets</a></li>
+          <li><a href="#Contacts">Contacts</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section id="Welcome">
-        <div class="section_black">
-          <h2>Welcome to the Louvre</h2>
+      <section id="Welcome" class="dark-section section">
+        <div class="container">
+          <h2 class="section-title white-title">Welcome to the Louvre</h2>
           <p>From the castle to the museum</p>
           <button>Discover the Louvre</button>
         </div>
       </section>
-      <section id="Visiting">
+      <section id="Visiting" class="section">
         <div class="container">
-            <h2>Virtual tour</h2>
+            <h2 class="section-title underline-title">Virtual tour</h2>
               <div class="catalog">
                 
-                <div class="card">
-                  <img src="images/Royal_Palace.png">
+                <a class="card">
+                  <img src="images/Royal_Palace.png" width="440px" height="285px" alt="Royal Palace">
                   <figcaption>
-                    <h3>Royal Palace</h3>
+                    <h3 class="section-title">Royal Palace</h3>
                     <h4>360° Virtual Tour</h4>
-                    <p>Google Street Panorama View</p>
+                    <p class="panorama">Google Street Panorama View</p>
                   </figcaption>
-                </div>
+                </a>
 
-                <div class="card">
-                  <img src="images/Denon_Wing.png">
+                <a class="card">
+                  <img src="images/Denon_Wing.png" width="440px" height="285px" alt="Denon Wing">
                   <figcaption>
-                    <h3>Denon Wing</h3>
+                    <h3 class="section-title">Denon Wing</h3>
                     <h4>360° Virtual Tour</h4>
-                    <p>Google Street Panorama View</p>
+                    <p class="panorama">Google Street Panorama View</p>
                   </figcaption>
-                </div>
+                </a>
 
-                <div class="card">
-                  <img src="images/Colonnade_Perrault.png">
+                <a class="card">
+                  <img src="images/Colonnade_Perrault.png" width="440px" height="285px" alt="Colonnade Perrault">
                   <figcaption>
-                    <h3>Colonnade Perrault</h3>
+                    <h3 class="section-title">Colonnade Perrault</h3>
                     <h4>360° Virtual Tour</h4>
-                    <p>Google Street Panorama View</p>
+                    <p class="panorama">Google Street Panorama View</p>
                   </figcaption>
-                </div>
+                </a>
 
-                <div class="card">
-                  <img src="images/Greek_Hall.png">
+                <a class="card">
+                  <img src="images/Greek_Hall.png" width="440px" height="285px" alt="Greek Hall">
                   <figcaption>
-                    <h3>Greek Hall</h3>
+                    <h3 class="section-title">Greek Hall</h3>
                     <h4>360° Virtual Tour</h4>
-                    <p>Google Street Panorama View</p>
+                    <p class="panorama">Google Street Panorama View</p>
                   </figcaption>
-                </div>
+                </a>
 
-                <div class="card">
-                  <img src="images/Mona_Lisa.png">
+                <a class="card">
+                  <img src="images/Mona_Lisa.png" width="440px" height="285px" alt="Mona Lisa">
                   <figcaption>
-                    <h3>Mona Lisa</h3>
+                    <h3 class="section-title">Mona Lisa</h3>
                     <h4>360° Virtual Tour</h4>
-                    <p>Google Street Panorama View</p>
+                    <p class="panorama">Google Street Panorama View</p>
                   </figcaption>
-                </div>
+                </a>
 
-                <div class="card">
-                  <img src="images/Night_Palace.png">
+                <a class="card">
+                  <img src="images/Night_Palace.png" width="440px" height="285px" alt="Night Palace">
                   <figcaption>
-                    <h3>Night Palace</h3>
+                    <h3 class="section-title">Night Palace</h3>
                     <h4>360° Virtual Tour</h4>
-                    <p>Google Street Panorama View</p>
+                    <p class="panorama">Google Street Panorama View</p>
                   </figcaption>
-                </div>
+                </a>
 
               </div>
         </div>
           
         </div>
       </section>
-      <section id="Explore">
-        <div class="section_black">
-          <h2>Picture explore</h2>
+      <section id="Explore" class="dark-section">
+        <div class="container">
+          <h2 class="section-title white-title">Picture explore</h2>
           <p>Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.</p>
           <p>It was cleaned in 1984 to remove a "yellow veil" of dust that had gathered since the previous restoration in the 19th
           century.</p>
@@ -106,49 +111,53 @@
           different.</p>
         </div>
       </section>
-      <section id="Video"></section>
-      <section id="Gallery"></section>
-      <section id="Tickets"></section>
+      <section id="Video" class="section video-section"></section>
+      <section id="Gallery" class="dark-section"></section>
+      <section id="Tickets" class="section"></section>
       <section id="parallax"></section>
-      <section id="Contacts"></section>
+      <section id="Contacts" class="section"></section>
     </main>
 
     <footer class="footer">
-      <p id="logo">
-        <img class="svg" src="images/logo_museum.svg"></img>
-      <p>Louvre</p>
-      </p>
-      <nav>
-        <ul>
-          <li><a href="#Visiting">Visiting</a></li>
-          <li><a href="Explore">Explore</a></li>
-          <li><a href="Video">Video</a></li>
-          <li><a href="Gallery">Gallery</a></li>
-          <li><a href="Tickets">Tickets</a></li>
-          <li><a href="Contacts">Contacts</a></li>
-        </ul>
-      </nav>
-      <div class="social_links">
-        <div class="social_link">
-          <img class="svg" src="images/youtube.svg"></img>
-        </div>
-        <div class="social_link">
-          <img class="svg" src="images/insta.svg"></img>
-        </div>
-        <div class="social_link">
-          <img class="svg" src="images/facebook.svg"></img>
-        </div>
-        <div class="social_link">
-          <img class="svg" src="images/twitter.svg"></img>
-        </div>
-        <div class="social_link">
-          <img class="svg" src="images/pinterest.svg"></img>
+      <div class="container">
+        <div class="footer_wrapper">
+          <p id="logo">
+            <img class="svg" src="assets/svg/logo_museum.svg"></img>
+            <p>Louvre</p>
+          </p>
+          <nav>
+            <ul>
+              <li><a href="#Visiting">Visiting</a></li>
+              <li><a href="Explore">Explore</a></li>
+              <li><a href="Video">Video</a></li>
+              <li><a href="Gallery">Gallery</a></li>
+              <li><a href="Tickets">Tickets</a></li>
+              <li><a href="Contacts">Contacts</a></li>
+            </ul>
+          </nav>
+          <div class="social_links">
+            <div class="social_link">
+              <img class="svg" src="assets/svg/youtube.svg"></img>
+            </div>
+            <div class="social_link">
+              <img src="assets/svg/insta.svg"></img>
+            </div>
+            <div class="social_link">
+              <img src="assets/svg/facebook.svg"></img>
+            </div>
+            <div class="social_link">
+              <img src="assets/svg/twitter.svg"></img>
+            </div>
+            <div class="social_link">
+              <img src="assets/svg/pinterest.svg"></img>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
     </body>
     
-    </html>
+</html>
 
 
    
