@@ -17,13 +17,16 @@ html {
 .logo_svg {
   width: 49px;
   height: 28px;
+  margin-right: 20px;
 }
+
 
 #logo {
   text-transform: uppercase;
   max-width: 199px;
   max-height: 33px;
   display: flex;
+  color: white;
 }
 
 li {
