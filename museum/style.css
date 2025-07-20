@@ -40,7 +40,7 @@ ul {
 }
 
 h2 {
-font-size: 80px;
+font-size: 50px;
 }
 
 .section-title {
@@ -50,6 +50,10 @@ font-size: 80px;
   Color: #9D8665
 }
 
+.container-explore {
+  display: flex;
+}
+
 .white-title {
 Color: white;
 }
@@ -57,7 +61,7 @@ Color: white;
 p {
   font-family: "Roboto" sans-serif;
   margin: 0;
-  font-size: 20px;
+  font-size: 22px;
 }/*переделать*/
 
 .panorama {
@@ -94,6 +98,8 @@ h4 {
 
 .dark-section {
   background: #030303;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 .section {
@@ -101,11 +107,34 @@ h4 {
   padding-bottom: 75px;
 }
 
+.explore-img {
+  padding-left: 75px;
+}
+
+.white-text{
+  color: white;
+}
+
+.explore-gold {
+  color: #CAAA7D;
+}
+
 .catalog {
   display: flex;
   flex-wrap: wrap;
   gap: 60px;
   padding-top: 80px;
+}
+
+.journey-text {
+   max-width: 720px;
+   max-height: 90px;
+}
+
+.journey {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .video-section{
