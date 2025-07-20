@@ -14,8 +14,6 @@ html {
   margin: auto;
 }
 
-
-
 .logo_svg {
   width: 49px;
   height: 28px;
@@ -32,9 +30,10 @@ li {
   list-style: none;
   padding-left: 20px;
   padding-right: 20px;
+
 }
 
-ul {
+.header-nav {
   display: flex;
   max-width: 720px;
 }
@@ -175,10 +174,18 @@ nav {
   align-items: center;
 }
 
+.footer-nav {
+  max-width: 363px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .social_links {
+  max-width: 340px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
 }
 .social_link {
   border-radius: 50%;
