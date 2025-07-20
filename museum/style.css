@@ -3,10 +3,11 @@ html {
 }
 
 .header-container {
+  height: 150px;
   display: flex;
   justify-content: space-between;
   align-items:center;
-
+  
 }
 
 .container {
@@ -20,6 +21,10 @@ html {
   margin-right: 20px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
 
 #logo {
   text-transform: uppercase;
@@ -33,16 +38,23 @@ li {
   list-style: none;
   padding-left: 20px;
   padding-right: 20px;
-
 }
 
 .header-nav {
   display: flex;
-  max-width: 720px;
+  width: 1440px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.welcome {
+  height: 810px;
+  background-image: url(assets/img/welcome-slider/1.jpg);
 }
 
 h2 {
 font-size: 50px;
+margin-top: 0;
 }
 
 .section-title {
@@ -184,16 +196,20 @@ nav {
 }
 
 .social_links {
-  max-width: 340px;
+  min-width: 340px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:space-between;
 
 }
 .social_link {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #666666;
   border-radius: 50%;
-  border: 5px;
-  border-color: #666666;
-  margin: auto;
+  padding: 10px ;
+  display: flex;
+  justify-content: center;
+
 }/*не работает*/
 
