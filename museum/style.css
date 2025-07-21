@@ -48,8 +48,31 @@ li {
 }
 
 .welcome {
+  position: relative;
   height: 810px;
-  background-image: url(assets/img/welcome-slider/1.jpg);
+  width: 1440px;
+  margin: 0 auto 0 auto;
+}
+
+.grad {
+  background: linear-gradient(to right, red, yellow);
+}
+
+.welcome-slider {
+  width: 1000px;
+  height: 810px;
+  position: absolute;
+  left: 440px;
+  bottom: 0;
+}
+
+.welcome-text {
+      position: absolute;
+        top: 150px;
+        width: 598px;
+        height: 388px;
+        margin: 0;
+        padding: 0;
 }
 
 h2 {
@@ -112,8 +135,6 @@ h4 {
 
 .dark-section {
   background: #030303;
-  padding-top: 75px;
-  padding-bottom: 75px;
 }
 
 .section {

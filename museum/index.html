@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=1920px">
     <title>Museum</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Forum&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -30,11 +31,18 @@
       </nav>
     </header>
     <main>
-      <section id="Welcome" class="dark-section section">
+      <section id="Welcome" class="dark-section">
         <div class="container welcome">
-          <h2 class="section-title white-title">Welcome to the Louvre</h2>
-          <p>From the castle to the museum</p>
-          <button>Discover the Louvre</button>
+          <div class="welcome-slider">
+            <div class="welcome-img">
+              <img class="grad" src="assets/img/welcome-slider/1.jpg" alt="Mona Lisa">
+            </div>
+          </div>
+          <div class="welcome-text">
+            <h2 class="section-title white-title">Welcome<br> to the Louvre</h2>
+            <p>From the castle to the museum</p>
+            <button>Discover the Louvre</button>
+          </div>
         </div>
       </section>
       <section id="Visiting" class="section">
@@ -101,7 +109,7 @@
           
         </div>
       </section>
-      <section id="Explore" class="dark-section ">
+      <section id="Explore" class="dark-section section">
         <div class="container container-explore">
           <div>
           <h2 class="section-title white-title underline-title">Picture explore</h2>
