@@ -189,6 +189,100 @@ nav {
 
 
 
+.tickets {
+  display: flex;
+  padding-top: 75px;
+}
+
+.ticket-img {
+  padding: 0 75px 75px 0;
+}
+
+.option-group label {
+  display: block;
+}
+
+/* Radio Buttons */
+.radio-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.radio-option:hover {
+  background-color: #f8f9fa;
+  border-color: #000000;
+}
+
+.radio-option input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-right: 12px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.radio-option input[type="radio"]:checked {
+  border-color: #000000;
+}
+
+.radio-option input[type="radio"]:checked::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+.radio-option label {
+  font-weight: 500;
+  color: #34495e;
+  cursor: pointer;
+  flex-grow: 1;
+  margin-bottom: 0;
+}
+
+/* Button */
+.buy-button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 0.9rem;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11);
+}
+
+.buy-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.2);
+  background: black;
+}
+
+.buy-button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11);
+}
+
+
+
+
 
 #parallax {
   background-image: url(assets/img/parallax.jpg);
