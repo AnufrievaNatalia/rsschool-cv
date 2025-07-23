@@ -18,7 +18,7 @@
       <nav class="header-nav">
         <a id="logo" href="#">
           <img class="svg logo_svg" src="assets/svg/logo_museum.svg" alt="museum"></img>
-          <p>Louvre</p>
+          <h1 class="page-title">Louvre</h1>
         </a>
         <ul class="header-nav nav-top">
           <li><a href="#Visiting">Visiting</a></li>
@@ -119,7 +119,7 @@
           The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked
           different.</p>
         </div>
-        <img class="explore-img" src="assets/img/explore-slider/before.jpg">
+        <img class="explore-img" src="assets/img/explore-slider/before.jpg" alt="Explore">
         </div>
       </section>
       <section id="Video" class="section video-section">
@@ -130,7 +130,15 @@
           </div>
           </div>
       </section>
-      <section id="Gallery" class="dark-section"></section>
+      
+      
+      <section id="Gallery" class="dark-section section">
+        <div class="container">
+            <h2 class="section-title white-title">Gallery</h2>
+        </div>
+      </section>
+
+
       <section id="Tickets" class="section">
         <div class="container">
           <h2 class="section-title underline-title">Buy Tickets</h2>
@@ -138,7 +146,7 @@
             <img src="assets/img/tickets.png" class="ticket-img" alt="image for tickets category">
             <div class="ticket-type">
               <div class="option-group">
-                <h3>Ticket Type</h3>
+                <p class="mini-title">Ticket Type</p>
           
                 <div class="radio-option">
                   <input type="radio" id="permanent" name="ticket_type" checked>
@@ -154,9 +162,23 @@
                   <input type="radio" id="combined" name="ticket_type">
                   <label for="combined">Combined Admission</label>
                 </div>
+              </div>
             </div>
-            <button class="buy-button">Buy Now</button>
+            <div class="tickets__amount">
+              <p class="tickets__text">Amount</p>
+              <div class="tickets__amount__container">
+                <div class="tickets__number">
+                  <label for="quantity">Basic 18+</label>
+                  <input type="number" id="quantity" name="quantity" min="1" max="50" value="1">
+                </div>
+                <div class="tickets__number">
+                  <label for="quantity">Senior 65+</label>
+                  <input type="number" id="quantity" name="quantity" min="1" max="50" value="1">
+                </div>
+              </div>
+            
             </div>
+            
           </div>
 
           
@@ -168,14 +190,35 @@
         </div>
       </section>
       <section id="parallax"></section>
-      <section id="Contacts" class="section"></section>
+
+      <section id="Contacts" class="section">
+        <div class="container">
+          <h2 class="section-title underline-title">Contacts</h2>
+            <div class="Contacts">
+              <div class="ticket-type">
+                <div class="option-group">
+                  <p class="mini-title">Palais Royal<br> Musee du Louvre</p>
+            
+                  <div class="contacts-list">
+                    <p class="contact-list"><a>address: 75001 Paris, France</a></p>
+                    <p class="contact-list"><a href="tel:++330140205050">phone: +33(0) 1 40 20 50 50</a></p>
+                    <p class="contact-list"><a href="mailto:someone@example.com">mail: info@louvre.fr</a></p>
+                  </div>
+                </div>
+              </div>
+              <img src="assets/img/map.png" class="map-img" alt="map">
+            </div>
+
+
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
       <div class="container">
         <div class="footer_wrapper">
           <p id="logo">
-            <img class="svg logo_svg" src="assets/svg/logo_museum.svg"></img>
+            <img class="svg logo_svg" src="assets/svg/logo_museum.svg" alt="logo"></img>
             <span>Louvre</span>
           </p>
           <nav>
@@ -190,21 +233,27 @@
           </nav>
           <div class="social_links">
             <a class="social_link" href="https://www.youtube.com/user/louvre">
-              <img class="svg" src="assets/svg/youtube.svg"></img>
+              <img class="svg" src="assets/svg/youtube.svg" alt="youtube"></img>
             </a>
             <a class="social_link" href="https://www.instagram.com/museelouvre/">
-              <img src="assets/svg/insta.svg"></img>
+              <img src="assets/svg/insta.svg" alt="instagram"></img>
             </a>
             <a class="social_link" href="https://www.facebook.com/museedulouvre">
-              <img src="assets/svg/facebook.svg"></img>
+              <img src="assets/svg/facebook.svg" alt="facebook"></img>
             </a>
             <a class="social_link" href="http://twitter.com/museelouvre">
-              <img src="assets/svg/twitter.svg"></img>
+              <img src="assets/svg/twitter.svg" alt="twitter"></img>
             </a>
             <a class="social_link" href="https://www.pinterest.fr/museedulouvre/">
-              <img src="assets/svg/pinterest.svg"></img>
+              <img src="assets/svg/pinterest.svg" alt="pinterest"></img>
             </a>
           </div>
+        </div>
+        <div class="signature">
+          <p>@ 2021</p>
+          <a href="https://rs.school/courses/javascript-ru" target="_blank">The Rolling Scopes School</a>
+          <a href="https://github.com/anufrievanatalia" target="_blank">Anufrieva Natalia</a>
+
         </div>
       </div>
     </footer>
